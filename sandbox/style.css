@@ -16,8 +16,8 @@ body {
     margin: 100px auto;
     padding: 10px;
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
     gap: 10px;
 
     /* grid-auto-rows: minmax(100px, auto); */
@@ -38,27 +38,26 @@ body {
     align-self: end;
 } */
 
-/* .item:nth-of-type(1) {
+.item:nth-of-type(1) {
     background: black;
     grid-column-start: 1;
     grid-column-end: 3;
 }
 
-.item:nth-of-type(3) {
+/* .item:nth-of-type(3) {
     background: red;
     grid-row-start: 2;
     grid-row-end: 4;
 }
+ */
 
-
-.item:nth-of-type(4) {
+/* .item:nth-of-type(4) {
     background: green;
     grid-row-start: 2;
     grid-row-end: 4;
 } */
 
-
-@media(max-width: 500px) {
+*/ @media(max-width: 500px) {
 
     .container {
         grid-template-columns: 1fr;
